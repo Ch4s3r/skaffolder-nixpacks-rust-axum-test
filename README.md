@@ -12,7 +12,7 @@ kubectl get pods -A
 
 ### Kubernetes Deployment
 ```bash
-skaffold dev
+devbox run dev
 ```
 
 ## Access Application

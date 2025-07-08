@@ -1,0 +1,57 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-06-25T07:32:58Z",
+      "resolved": "github:NixOS/nixpkgs/d7bb1922f0bb3d0c990f56f9cdb767fdb20a5f22?lastModified=1750836778&narHash=sha256-sRLyRiC7TezRbbjGJwUFOgb2xMbSr3wQ0oJKfYlQ6s0%3D"
+    },
+    "skaffold@latest": {
+      "last_modified": "2025-06-20T02:24:11Z",
+      "resolved": "github:NixOS/nixpkgs/076e8c6678d8c54204abcb4b1b14c366835a58bb#skaffold",
+      "source": "devbox-search",
+      "version": "2.16.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nfybpn0dhscvbdrmqfn7fchmb6z28xg2-skaffold-2.16.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nfybpn0dhscvbdrmqfn7fchmb6z28xg2-skaffold-2.16.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/dnvnpxi1c32x54sgibhbp571wh1ai6hp-skaffold-2.16.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/dnvnpxi1c32x54sgibhbp571wh1ai6hp-skaffold-2.16.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/06my42wmjj9v69l4241091apch680n56-skaffold-2.16.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/06my42wmjj9v69l4241091apch680n56-skaffold-2.16.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/s463czklpx90zvj57bk2gpkvms2z2w1q-skaffold-2.16.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/s463czklpx90zvj57bk2gpkvms2z2w1q-skaffold-2.16.1"
+        }
+      }
+    }
+  }
+}
