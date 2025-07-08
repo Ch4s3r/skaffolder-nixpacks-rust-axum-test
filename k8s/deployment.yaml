@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: my-image
+        image: my-image # <-- Skaffold will automatically inject the tag
         imagePullPolicy: Never
         ports:
         - containerPort: 8080

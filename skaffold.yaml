@@ -7,12 +7,14 @@ build:
   - image: my-image # <-- No tag here, Skaffold manages tags automatically
     custom:
       buildCommand: |
-        nixpacks build . -n my-image -t latest
+        nixpacks build . --name "$IMAGE"
       dependencies:
         paths:
           - . # Watch all files in the current directory
 manifests:
   rawYaml:
-  - k8s/*.yaml
+  - k8s/deployment.yaml # Your Kubernetes deployment manifest
+  - k8s/service.yaml # Your Kubernetes service manifest
+  - k8s/ingress.yaml # Your Kubernetes ingress manifest
 deploy:
   kubectl: {} # Or helm, kustomize, etc.
